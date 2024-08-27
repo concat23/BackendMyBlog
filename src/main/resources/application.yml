@@ -16,3 +16,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
 server:
   port: 8085
+  servlet:
+    context-path: /api-stg
+
